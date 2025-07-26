@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  background-color: #050b0f;
+  font-weight: 800;
+}
+
+.mobile-drawer {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
+  z-index: 1050;
+  transition: left 0.3s ease;
+  padding: 1rem;
+}
+
+.mobile-drawer.open {
+  left: 0;
+}
+
+.drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1040;
+  display: none;
+}
+
+.drawer-backdrop.show {
+  display: block;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+  color: #4353ff !important;
+}
+
+.hero-section {
+  background-color: #fcfcfc;
+}
+
+.hero-section img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-left {
+  color: #00180f;
+}
+
+.hero-left h4 {
+  font-size: 30px;
+  margin-top: -20px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.hero-left h1 {
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 5px;
+}
+
+.hero-left h1 span {
+  color: #3f4dea;
+}
+
+.hero-left p {
+  padding: 10px 0;
+  line-height: 28px;
+  letter-spacing: 1.5px;
+}
+
+.hero-image {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-image:hover {
+  transform: translateY(-15px);
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  color: #212529;
+}
+
+.footer h4,
+.footer h5 {
+  color: #00180f;
+}
+
+.footer p,
+.footer li,
+.footer a {
+  color: #212529;
+  font-size: 14px;
+}
+
+.footer a {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer a:hover {
+  color: #3f4dea;
+  transform: translateX(5px);
+}
+
+.footer .social-icon {
+  font-size: 20px;
+  color: #212529;
+  margin: 0 10px;
+  transition: all 0.3s;
+}
+
+.footer .social-icon:hover {
+  color: #ffc107;
+  transform: scale(1.2);
+}
+
+#contact {
+  background-color: #ffffff !important;
+}
+
+#interesting-numbers {
+  position: relative;
+  background-image: url("https://fastwpdemo.com/newwp/finbank/wp-content/uploads/2022/09/money-exchange-value.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 80px 0;
+}
+
+#interesting-numbers::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+#interesting-numbers .container {
+  position: relative;
+  z-index: 2;
+}
+
+#interesting-numbers h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#interesting-numbers .lead {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.card {
+  border: none;
+  overflow:  hidden !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card-body i {
+  color: #3f4dea;
+}
+
+.card-body i:hover {
+  color: #2c38c7;
+}
+
+.about_container {
+  height: 450px;
+  padding-right: 50px;
+}
+
+.about_container img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 100%;
+  height: auto;
+}
+
+.about_container img:hover {
+  transform: translateY(-15px);
+}
+
+.product-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search_container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  /* width: 100%; */
+}
+
+.responsive-width {
+  width: 100%;
+}
+
+.product_image {
+    height: 250px;
+    object-fit: cover;
+    overflow: hidden !important;
+    transition: transform 0.3s ease;
+}
+#products{
+    padding: 80px 0px !important;
+}
+
+#show_product {
+    padding-top: 30px;
+}
+
+.product_image:hover {
+    transform: scale(1.10);
+    transition: transform 0.3s ease;
+}
+
+.card-body h5 {
+    text-align: left !important;
+}
+
+.card-body h5:hover {
+    color: #3f4dea !important;
+    text-decoration: underline !important;
+    text-underline-offset: 3px !important;
+    text-decoration-thickness: 2px !important;
+}
+.card-body .card-text:hover {
+    text-decoration: underline !important;
+    text-underline-offset: 3px !important;
+    text-decoration-thickness: 2px !important;
+}
+
+.card-body span:hover {
+    text-decoration: underline !important;
+    text-underline-offset: 3px !important;
+    text-decoration-thickness: 2px !important;
+}
+
+.card-body span {
+    color: #3f4dea !important;
+}
+
+.card-body .card-text {
+    text-align: left !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .hero-left h1 {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 2px;
+  }
+
+  .hero-left h4 {
+    font-size: 18px;
+    margin-top: -0px;
+    letter-spacing: 1px;
+  }
+
+  .hero-left p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer form input,
+  .footer form button {
+    width: 100%;
+  }
+
+  .about-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-section p.lead {
+    font-size: 1rem;
+  }
+  .about_container {
+    height: 500px;
+    padding-right: 13px;
+  }
+  .product-search {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+   .responsive-width {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .responsive-width {
+    width: 30%;
+  }
+}

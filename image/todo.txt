@@ -1,0 +1,42 @@
+1. Hero Section
+
+    Company name + catchy tagline
+
+    Call-to-Action (CTA) button (e.g., “Get Started” or “Explore Products”)
+
+    Background image or illustration
+
+2. About Us
+
+    Brief info about your agency
+
+    What makes you unique
+
+3. Product Highlights / Services
+
+    Showcase top 3–6 products or product categories
+
+    Icons or product images
+
+    “Learn More” links
+
+4. Why Choose Us
+
+    List of benefits (e.g., Quality, Support, Fast Delivery)
+
+5. Testimonials
+
+    Real or placeholder reviews to build trust
+
+6. Contact Form
+
+    Name, email, message
+
+7. Footer
+
+    Social media links
+
+    Newsletter subscription
+
+    Copyright
+
