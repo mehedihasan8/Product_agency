@@ -127,10 +127,8 @@ function showCartModal() {
     modal = document.getElementById("cartModal");
   }
 
-  // Update modal content
   updateCartModalContent();
 
-  // Show modal
   const bootstrapModal = new bootstrap.Modal(modal);
   bootstrapModal.show();
 }
