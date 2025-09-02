@@ -6,7 +6,6 @@
     "description": "High-quality noise-cancelling headphones with Bluetooth 5.0 support.",
     "price": 99.99,
     "discountPrice": 79.99,
-    "stock": 25,
     "category": "Electronics"
   },
   {
@@ -16,7 +15,6 @@
     "description": "Track your steps, heart rate, and sleep with this stylish fitness band.",
     "price": 49.99,
     "discountPrice": 39.99,
-    "stock": 50,
     "category": "Wearables"
   },
   {
@@ -26,7 +24,6 @@
     "description": "Fast 65W USB-C charger for laptops, tablets, and phones.",
     "price": 29.99,
     "discountPrice": 19.99,
-    "stock": 100,
     "category": "Accessories"
   },
   {
@@ -36,7 +33,6 @@
     "description": "Water-resistant backpack with padded laptop sleeve and USB port.",
     "price": 59.99,
     "discountPrice": 45.99,
-    "stock": 40,
     "category": "Accessories"
   },
   {
@@ -46,7 +42,6 @@
     "description": "Portable waterproof Bluetooth speaker with deep bass.",
     "price": 69.99,
     "discountPrice": 54.99,
-    "stock": 30,
     "category": "Electronics"
   },
   {
@@ -56,7 +51,6 @@
     "description": "Capture your adventures in 4K with this waterproof sports camera.",
     "price": 129.99,
     "discountPrice": 109.99,
-    "stock": 15,
     "category": "Electronics"
   },
   {
@@ -66,7 +60,6 @@
     "description": "Adjustable ergonomic chair with lumbar support and breathable mesh.",
     "price": 199.99,
     "discountPrice": 159.99,
-    "stock": 12,
     "category": "Furniture"
   },
   {
@@ -76,7 +69,6 @@
     "description": "RGB gaming mouse with 6 programmable buttons and high DPI.",
     "price": 39.99,
     "discountPrice": 29.99,
-    "stock": 60,
     "category": "Electronics"
   },
   {
@@ -86,7 +78,6 @@
     "description": "Voice-controlled LED bulb with millions of color options.",
     "price": 14.99,
     "discountPrice": 9.99,
-    "stock": 200,
     "category": "Electronics"
   },
   {
@@ -96,7 +87,6 @@
     "description": "Slim wireless keyboard with long battery life and silent keys.",
     "price": 49.99,
     "discountPrice": 34.99,
-    "stock": 35,
     "category": "Electronics"
   },
   {
@@ -106,7 +96,6 @@
     "description": "Stylish smartwatch with fitness tracking and notification alerts.",
     "price": 119.99,
     "discountPrice": 99.99,
-    "stock": 28,
     "category": "Wearables"
   },
   {
@@ -116,7 +105,6 @@
     "description": "Foldable stand for laptops with adjustable height and angle.",
     "price": 39.99,
     "discountPrice": 24.99,
-    "stock": 45,
     "category": "Furniture"
   },
   {
@@ -126,7 +114,6 @@
     "description": "Compact earbuds with noise cancellation and charging case.",
     "price": 89.99,
     "discountPrice": 69.99,
-    "stock": 75,
     "category": "Electronics"
   },
   {
@@ -136,7 +123,6 @@
     "description": "Keep your workspace fresh with this USB-powered air purifier.",
     "price": 49.99,
     "discountPrice": 34.99,
-    "stock": 80,
     "category": "Accessories"
   },
   {
@@ -146,7 +132,6 @@
     "description": "Flexible tripod with universal phone mount and remote control.",
     "price": 24.99,
     "discountPrice": 18.99,
-    "stock": 90,
     "category": "Accessories"
   }
 ]
